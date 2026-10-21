@@ -2,7 +2,7 @@ version: '3.8'
 
 # ==============================================================
 # Practical 11: Multi-Container Orchestration with Docker Compose
-# Student: Dharm Lakhani (24CS046) | Course: ITUE301
+# Student: Rudra Vaghela (24CS105) | Course: ITUE301
 # Architecture: Frontend (React) -> Backend (Express) -> MongoDB
 # Network: app-network (Bridge) | Volume: mongo-data (Named Volume)
 # ==============================================================
@@ -42,7 +42,7 @@ services:
       - PORT=5000
       # Reference MongoDB container by service name 'mongodb' rather than localhost
       - MONGO_URI=mongodb://mongodb:27017/taskdb
-      - JWT_SECRET=jay_ladva_24cs046_docker_secret_key_2026
+      - JWT_SECRET=jay_ladva_24cs105_docker_secret_key_2026
       - NODE_ENV=production
     depends_on:
       mongodb:

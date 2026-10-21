@@ -1,6 +1,6 @@
 /**
  * Practical 13: External AI Service Integration & Fallback Engine
- * Student: Dharm Lakhani (24CS046) | Course: ITUE301
+ * Student: Rudra Vaghela (24CS105) | Course: ITUE301
  * 
  * Supports:
  * 1. OpenAI Chat Completion API (GPT-4o-mini)

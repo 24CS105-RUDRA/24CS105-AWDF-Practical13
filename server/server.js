@@ -3,7 +3,7 @@
  * Faculty of Technology and Engineering (FTE / CSPIT)
  * Course: Advanced Web Development Frameworks (ITUE301)
  * Practical 13: AI API Integration into a Web Application
- * Student: Dharm Lakhani (24CS046)
+ * Student: Rudra Vaghela (24CS105)
  */
 
 require('dotenv').config();
@@ -44,7 +44,7 @@ const { generateTaskDescription } = require('./services/aiService');
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/task_manager_db';
-const JWT_SECRET = process.env.JWT_SECRET || 'jay_ladva_24cs046_jwt_default_secret_2026';
+const JWT_SECRET = process.env.JWT_SECRET || 'jay_ladva_24cs105_jwt_default_secret_2026';
 
 // ==========================================
 // 1. CORS Middleware
@@ -107,7 +107,7 @@ app.get('/', (req, res) => {
   const dbStatus = mongoose.connection.readyState === 1 ? 'connected' : 'disconnected';
   res.status(200).json({
     message: 'Welcome to Task Manager API - Containerized with Docker & Docker Compose (Practical 11)',
-    student: 'Dharm Lakhani (24CS046)',
+    student: 'Rudra Vaghela (24CS105)',
     course: 'ITUE301',
     container: {
       isContainerized: Boolean(process.env.HOSTNAME),

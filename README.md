@@ -1,11 +1,11 @@
 # Practical 13: AI API Integration into a Web Application
 
-[![CI Pipeline](https://github.com/24CS046Dharm/24cs046-awdf-practical13/actions/workflows/ci.yml/badge.svg)](https://github.com/24CS046Dharm/24cs046-awdf-practical13/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical13/actions/workflows/ci.yml/badge.svg)](https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical13/actions/workflows/ci.yml)
 
 **Course:** Advanced Web Development Frameworks (ITUE301)  
-**Student Name:** Dharm Lakhani  
-**Student ID:** 24CS046  
-**GitHub Repository:** [https://github.com/24CS046Dharm/24cs046-awdf-practical13](https://github.com/24CS046Dharm/24cs046-awdf-practical13)
+**Student Name:** Rudra Vaghela  
+**Student ID:** 24CS105  
+**GitHub Repository:** [https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical13](https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical13)
 
 ---
 
@@ -133,7 +133,7 @@ ok 7 - Test 7: POST /api/ai/generate-description rejects missing title with 400 
 ## 🛠 Project Structure
 
 ```
-24cs046-awdf-practical13/
+24CS105-AWDF-Practical13/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                 # Automated CI pipeline with test and lint verification
@@ -141,7 +141,7 @@ ok 7 - Test 7: POST /api/ai/generate-description rejects missing title with 400 
 ├── .gitignore                     # Strictly excludes .env, node_modules, and builds
 ├── README.md                      # Comprehensive laboratory documentation
 ├── docker-compose.yml             # Full-stack container orchestration
-├── pract-13-awdf-24cs046.docx     # Formal Word report for submission
+├── pract-13-awdf-24cs105.docx     # Formal Word report for submission
 ├── server/
 │   ├── services/
 │   │   ├── aiService.js           # OpenAI integration, rate limiter & graceful degradation

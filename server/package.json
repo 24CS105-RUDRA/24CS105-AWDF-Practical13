@@ -1,5 +1,5 @@
 {
-  "name": "task-manager-api-24cs046",
+  "name": "task-manager-api-24cs105",
   "version": "1.0.0",
   "description": "Task Manager Express Backend containerized with Docker & Docker Compose (Practical 11, ITUE301)",
   "main": "server.js",
@@ -16,7 +16,7 @@
     "middleware",
     "task-manager"
   ],
-  "author": "Dharm Lakhani (24CS046)",
+  "author": "Rudra Vaghela (24CS105)",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",

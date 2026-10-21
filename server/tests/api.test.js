@@ -1,6 +1,6 @@
 /**
  * Practical 12: CI/CD Pipeline Automated Tests
- * Student: Dharm Lakhani (24CS046) | Course: ITUE301
+ * Student: Rudra Vaghela (24CS105) | Course: ITUE301
  * Uses Node.js native test runner (node:test) and assert
  * Compatible with GitHub Actions CI on ubuntu-latest
  */
@@ -71,7 +71,7 @@ test('Test 1: GET / returns status 200 with API metadata', async () => {
   const res = await makeRequest('/');
   assert.strictEqual(res.statusCode, 200, 'Expected status code 200');
   assert.ok(res.data.message.includes('Task Manager API'), 'Expected welcome message');
-  assert.strictEqual(res.data.student, 'Dharm Lakhani (24CS046)');
+  assert.strictEqual(res.data.student, 'Rudra Vaghela (24CS105)');
 });
 
 // Supplementary Problem: Second automated test covering different endpoint

@@ -1,5 +1,5 @@
 {
-  "name": "24cs046-awdf-practical13",
+  "name": "24CS105-AWDF-Practical13",
   "version": "1.0.0",
   "description": "Practical 13: AI API Integration into a Web Application (OpenAI / Gemini API + Graceful Degradation + React + Express)",
   "private": true,
@@ -23,6 +23,6 @@
     "mongodb",
     "fullstack"
   ],
-  "author": "Dharm Lakhani (24CS046)",
+  "author": "Rudra Vaghela (24CS105)",
   "license": "ISC"
 }
