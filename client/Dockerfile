@@ -1,6 +1,6 @@
 # ==========================================
 # Practical 11: Frontend React Dockerfile (Multi-Stage Build)
-# Student: Jay Ladva (24CS045) | Course: ITUE301
+# Student: Rudra Vaghela (24CS105) | Course: ITUE301
 # ==========================================
 
 # Stage 1: Build Stage (Compiles JSX into optimized production bundle)
