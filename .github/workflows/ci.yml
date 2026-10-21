@@ -3,7 +3,7 @@ name: CI Pipeline
 # ==============================================================
 # Practical 12: Continuous Integration Pipeline with GitHub Actions
 # Course: Advanced Web Development Frameworks (ITUE301)
-# Student: Jay Ladva (24CS045)
+# Student: Rudra Vaghela (24CS105)
 # Triggers: Push to main, Pull Requests targeting main
 # ==============================================================
 
